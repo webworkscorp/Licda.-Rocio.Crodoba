@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licda. Rocío Córdoba | Abogados & Notarios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        legalPrimary: '#E8CFCF', 
+                        legalPrimarySoft: '#FDF2F2',
+                        legalSecondary: '#8B5E5E',
+                        legalAccent: '#F2E9E9',
+                        legalNeutral: '#FFFBFB',
+                        legalDark: '#2D1B1B',
+                        legalMuted: '#A37878',
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Eliminamos highlight negro en elementos interactivos */
+        a, button, [role="button"] {
+            -webkit-tap-highlight-color: transparent !important;
+        }
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            color: #2D1B1B; 
+            background-color: #FFFBFB; 
+            line-height: 1.6; 
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .font-serif { font-family: 'Cormorant Garamond', serif; }
+        ::selection { background-color: #E8CFCF; color: #2D1B1B; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
